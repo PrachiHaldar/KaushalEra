@@ -1,0 +1,215 @@
+/* ==========================================================================
+   KAUSHALSETU DESIGN SYSTEM TOKENS
+   Modern, Premium, High-Contrast Glassmorphism & SaaS Data Aesthetic
+   ========================================================================== */
+
+:root {
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Outfit', var(--font-sans);
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 1.875rem;   /* 30px */
+  --text-4xl: 2.25rem;    /* 36px */
+  --text-5xl: 3rem;       /* 48px */
+
+  /* Font Weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+
+  /* Border Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+
+  /* Motion & Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* ==========================================================================
+   THEME PALETTES: DARK (DEFAULT) & LIGHT
+   ========================================================================== */
+
+/* Dark Mode Theme (Default) */
+[data-theme='dark'], :root:not([data-theme='light']) {
+  --color-bg-app: #090D16;
+  --color-bg-subtle: #0F1626;
+  --color-bg-card: rgba(18, 26, 43, 0.75);
+  --color-bg-card-hover: rgba(26, 37, 60, 0.85);
+  --color-bg-card-solid: #131D30;
+  --color-bg-input: rgba(15, 23, 42, 0.75);
+  --color-bg-overlay: rgba(5, 8, 15, 0.8);
+  --color-bg-modal: #111A2E;
+  
+  /* Borders */
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 255, 255, 0.16);
+  --color-border-subtle: rgba(255, 255, 255, 0.04);
+  --color-border-glow: rgba(99, 102, 241, 0.4);
+
+  /* Text colors */
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #94A3B8;
+  --color-text-muted: #64748B;
+  --color-text-inverse: #090D16;
+
+  /* Primary Brand - Indigo & Violet */
+  --color-primary: #6366F1;
+  --color-primary-hover: #4F46E5;
+  --color-primary-light: rgba(99, 102, 241, 0.15);
+  --color-primary-border: rgba(99, 102, 241, 0.3);
+  --color-primary-glow: rgba(99, 102, 241, 0.35);
+
+  /* Accents */
+  --color-accent-teal: #06B6D4;
+  --color-accent-teal-bg: rgba(6, 182, 212, 0.12);
+  --color-accent-purple: #A855F7;
+  --color-accent-purple-bg: rgba(168, 85, 247, 0.12);
+  --color-accent-amber: #F59E0B;
+  --color-accent-amber-bg: rgba(245, 158, 11, 0.12);
+  --color-accent-emerald: #10B981;
+  --color-accent-emerald-bg: rgba(16, 185, 129, 0.12);
+  --color-accent-rose: #F43F5E;
+  --color-accent-rose-bg: rgba(244, 63, 94, 0.12);
+
+  /* Status Colors */
+  --color-success: #10B981;
+  --color-success-bg: rgba(16, 185, 129, 0.15);
+  --color-warning: #F59E0B;
+  --color-warning-bg: rgba(245, 158, 11, 0.15);
+  --color-error: #F43F5E;
+  --color-error-bg: rgba(244, 63, 94, 0.15);
+  --color-info: #0EA5E9;
+  --color-info-bg: rgba(14, 165, 233, 0.15);
+
+  /* Category Distinctions */
+  --cat-learning: #3B82F6;
+  --cat-skills: #8B5CF6;
+  --cat-career: #EC4899;
+  --cat-internship: #10B981;
+  --cat-placement: #F59E0B;
+  --cat-industry: #06B6D4;
+  --cat-faculty: #F97316;
+  --cat-analytics: #6366F1;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px -2px rgba(0, 0, 0, 0.5), 0 2px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.6), 0 4px 10px -2px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 35px -5px rgba(0, 0, 0, 0.7), 0 8px 15px -4px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 25px rgba(99, 102, 241, 0.25);
+  --shadow-glow-teal: 0 0 25px rgba(6, 182, 212, 0.25);
+  --shadow-glow-emerald: 0 0 25px rgba(16, 185, 129, 0.25);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(18, 26, 43, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(16px);
+}
+
+/* Light Mode Theme */
+[data-theme='light'] {
+  --color-bg-app: #F8FAFC;
+  --color-bg-subtle: #F1F5F9;
+  --color-bg-card: rgba(255, 255, 255, 0.85);
+  --color-bg-card-hover: rgba(255, 255, 255, 1);
+  --color-bg-card-solid: #FFFFFF;
+  --color-bg-input: #FFFFFF;
+  --color-bg-overlay: rgba(15, 23, 42, 0.4);
+  --color-bg-modal: #FFFFFF;
+  
+  /* Borders */
+  --color-border: rgba(226, 232, 240, 0.8);
+  --color-border-hover: rgba(203, 213, 225, 1);
+  --color-border-subtle: rgba(241, 245, 249, 0.8);
+  --color-border-glow: rgba(99, 102, 241, 0.3);
+
+  /* Text colors */
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94A3B8;
+  --color-text-inverse: #FFFFFF;
+
+  /* Primary Brand - Indigo & Violet */
+  --color-primary: #4F46E5;
+  --color-primary-hover: #4338CA;
+  --color-primary-light: rgba(79, 70, 229, 0.08);
+  --color-primary-border: rgba(79, 70, 229, 0.25);
+  --color-primary-glow: rgba(79, 70, 229, 0.2);
+
+  /* Accents */
+  --color-accent-teal: #0891B2;
+  --color-accent-teal-bg: rgba(8, 145, 178, 0.08);
+  --color-accent-purple: #9333EA;
+  --color-accent-purple-bg: rgba(147, 51, 234, 0.08);
+  --color-accent-amber: #D97706;
+  --color-accent-amber-bg: rgba(217, 119, 6, 0.08);
+  --color-accent-emerald: #059669;
+  --color-accent-emerald-bg: rgba(5, 150, 105, 0.08);
+  --color-accent-rose: #E11D48;
+  --color-accent-rose-bg: rgba(225, 29, 72, 0.08);
+
+  /* Status Colors */
+  --color-success: #059669;
+  --color-success-bg: rgba(5, 150, 105, 0.1);
+  --color-warning: #D97706;
+  --color-warning-bg: rgba(217, 119, 6, 0.1);
+  --color-error: #E11D48;
+  --color-error-bg: rgba(225, 29, 72, 0.1);
+  --color-info: #0284C7;
+  --color-info-bg: rgba(2, 132, 199, 0.1);
+
+  /* Category Distinctions */
+  --cat-learning: #2563EB;
+  --cat-skills: #7C3AED;
+  --cat-career: #DB2777;
+  --cat-internship: #059669;
+  --cat-placement: #D97706;
+  --cat-industry: #0891B2;
+  --cat-faculty: #EA580C;
+  --cat-analytics: #4F46E5;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-glow: 0 0 20px rgba(79, 70, 229, 0.15);
+  --shadow-glow-teal: 0 0 20px rgba(8, 145, 178, 0.15);
+  --shadow-glow-emerald: 0 0 20px rgba(5, 150, 105, 0.15);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(226, 232, 240, 0.8);
+  --glass-blur: blur(12px);
+}
