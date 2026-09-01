@@ -1,20 +1,23 @@
 // ==========================================================================
-// KAUSHALERA SKILLS DATA STORE
+// KAUSHALERA SKILLS DIRECTORY & DOMAIN MAPPINGS (FOR ALL DOMAINS)
 // ==========================================================================
 
 export const SKILL_CATEGORIES = {
-  TECHNICAL: 'Technical',
   AI_ML: 'AI & Machine Learning',
   CLOUD_DEVOPS: 'Cloud & DevOps',
-  DATA: 'Data Engineering & Analytics',
-  SOFT_SKILLS: 'Soft Skills & Leadership',
-  PROBLEM_SOLVING: 'Problem Solving & CS'
+  FULL_STACK: 'Full-Stack Web',
+  CYBER_SECURITY: 'Cyber Security',
+  DATA_SCIENCE: 'Data Science & Analytics',
+  MOBILE: 'Mobile Development',
+  BLOCKCHAIN: 'Blockchain & Web3',
+  EMBEDDED_IOT: 'Embedded Systems & IoT',
+  SOFT_SKILLS: 'Soft Skills & Leadership'
 };
 
 export const MOCK_RADAR_SKILLS = [
   { 
     name: 'Programming', 
-    category: 'Technical', 
+    category: 'Full-Stack Web', 
     yourLevel: 90, 
     industryLevel: 85, 
     matchPercent: 94,
@@ -22,161 +25,179 @@ export const MOCK_RADAR_SKILLS = [
     industryLevelName: 'Advanced',
     icon: 'Code2',
     color: '#6366F1',
-    description: 'Proficiency in writing scalable, modular code in modern languages like Python and TypeScript.',
+    description: 'Proficiency in writing scalable, modular code in modern languages like Python, TypeScript, and C++.',
     topCourses: ['Advanced Python Architecture', 'Clean Code Principles']
   },
   { 
-    name: 'Database', 
-    category: 'Data', 
-    yourLevel: 70, 
+    name: 'AI & ML', 
+    category: 'AI & Machine Learning', 
+    yourLevel: 75, 
     industryLevel: 85, 
-    matchPercent: 82,
+    matchPercent: 88,
     levelName: 'Intermediate',
     industryLevelName: 'Advanced',
-    icon: 'Database',
-    color: '#06B6D4',
-    description: 'Relational data modeling, SQL optimization, and NoSQL document storage systems.',
-    topCourses: ['PostgreSQL Indexing & Optimization', 'Database Internals']
+    icon: 'BrainCircuit',
+    color: '#A855F7',
+    description: 'Supervised/unsupervised models, neural networks, PyTorch, and LLM fine-tuning pipelines.',
+    topCourses: ['Machine Learning Fundamentals by Stanford', 'PyTorch for Deep Learning']
   },
   { 
-    name: 'Cloud', 
+    name: 'Cloud & DevOps', 
     category: 'Cloud & DevOps', 
-    yourLevel: 55, 
+    yourLevel: 70, 
     industryLevel: 80, 
-    matchPercent: 68,
+    matchPercent: 82,
     levelName: 'Intermediate',
     industryLevelName: 'Advanced',
     icon: 'Cloud',
     color: '#3B82F6',
-    description: 'Deploying, managing, and scaling serverless and containerized microservices in cloud environments.',
+    description: 'Docker multi-stage builds, Kubernetes orchestration, CI/CD automation, and Terraform IaC.',
     topCourses: ['AWS Certified Solutions Architect Path', 'Docker & Kubernetes Mastery']
   },
   { 
-    name: 'AI/ML', 
-    category: 'AI & Machine Learning', 
-    yourLevel: 45, 
+    name: 'Databases & SQL', 
+    category: 'Data Science & Analytics', 
+    yourLevel: 80, 
     industryLevel: 85, 
-    matchPercent: 53,
-    levelName: 'Beginner',
+    matchPercent: 90,
+    levelName: 'Advanced',
     industryLevelName: 'Advanced',
-    icon: 'BrainCircuit',
-    color: '#A855F7',
-    description: 'Supervised/unsupervised models, deep neural networks, transformer pipelines, and model evaluation.',
-    topCourses: ['Machine Learning Fundamentals by Stanford', 'PyTorch for Deep Learning']
+    icon: 'Database',
+    color: '#06B6D4',
+    description: 'Relational data modeling, PostgreSQL query planning (EXPLAIN), B-Tree indexes, and Spark aggregations.',
+    topCourses: ['PostgreSQL Indexing & Optimization', 'Database Internals']
   },
   { 
-    name: 'Communication', 
+    name: 'Security & Auth', 
+    category: 'Cyber Security', 
+    yourLevel: 65, 
+    industryLevel: 80, 
+    matchPercent: 78,
+    levelName: 'Intermediate',
+    industryLevelName: 'Advanced',
+    icon: 'ShieldCheck',
+    color: '#EF4444',
+    description: 'OWASP Top 10 mitigation, JWT/OAuth2 flows, public key cryptography, and network penetration testing.',
+    topCourses: ['CompTIA Security+ Blueprint', 'OWASP Web Pentesting Sandbox']
+  },
+  { 
+    name: 'Mobile & IoT', 
+    category: 'Mobile & IoT', 
+    yourLevel: 68, 
+    industryLevel: 75, 
+    matchPercent: 85,
+    levelName: 'Intermediate',
+    industryLevelName: 'Proficient',
+    icon: 'Smartphone',
+    color: '#10B981',
+    description: 'Cross-platform Flutter/React Native UI architectures and FreeRTOS microcontroller programming.',
+    topCourses: ['Flutter Clean Architecture Masterclass', 'ARM Cortex Embedded C']
+  },
+  { 
+    name: 'Leadership & Comm', 
     category: 'Soft Skills & Leadership', 
     yourLevel: 85, 
     industryLevel: 75, 
     matchPercent: 96,
     levelName: 'Advanced',
     industryLevelName: 'Proficient',
-    icon: 'MessageSquare',
-    color: '#10B981',
-    description: 'Technical writing, cross-functional stakeholder collaboration, and executive presentations.',
-    topCourses: ['Executive Engineering Communication', 'Effective Technical Writing']
-  },
-  { 
-    name: 'Problem Solving', 
-    category: 'Problem Solving & CS', 
-    yourLevel: 88, 
-    industryLevel: 80, 
-    matchPercent: 92,
-    levelName: 'Advanced',
-    industryLevelName: 'Advanced',
-    icon: 'Lightbulb',
-    color: '#F59E0B',
-    description: 'Algorithmic efficiency, time-space complexity trade-offs, and dynamic programming.',
-    topCourses: ['Advanced Algorithms & Data Structures', 'System Design Primer']
-  },
-  { 
-    name: 'Leadership', 
-    category: 'Soft Skills & Leadership', 
-    yourLevel: 72, 
-    industryLevel: 70, 
-    matchPercent: 88,
-    levelName: 'Proficient',
-    industryLevelName: 'Proficient',
     icon: 'Users',
     color: '#EC4899',
-    description: 'Peer mentorship, agile sprint facilitation, conflict resolution, and technical initiative delivery.',
-    topCourses: ['Agile Project Leadership', 'Peer Engineering Mentorship']
+    description: 'Technical writing, agile sprint facilitation, cross-functional engineering, and stakeholder communication.',
+    topCourses: ['Executive Engineering Communication', 'Agile Project Leadership']
   }
 ];
 
 export const MOCK_SKILL_GAPS = [
   {
-    id: 'python',
-    skill: 'Python',
-    category: 'Programming',
-    yourLevel: 90,
-    industryNeed: 90,
-    gap: 0,
-    status: 'optimal',
-    verified: true,
-    verificationType: 'assessment',
-    verificationNote: 'Verified by Python Advanced Assessment on 14 Aug 2026',
-    recommendation: 'Skill matched with top 5% of candidate pool.'
-  },
-  {
-    id: 'sql',
-    skill: 'SQL & Data Modeling',
-    category: 'Database',
-    yourLevel: 70,
+    id: 'pytorch',
+    skill: 'Deep Learning & PyTorch',
+    domainId: 'artificial-intelligence',
+    category: 'AI & Machine Learning',
+    yourLevel: 65,
     industryNeed: 85,
-    gap: 15,
+    gap: 20,
     status: 'moderate',
     verified: true,
-    verificationType: 'institution',
-    verificationNote: 'Verified by ABC University CS Dept on 12 June 2026',
-    recommendation: 'Complete SQL Performance Tuning to close the 15% gap for 14 Backend roles.'
+    verificationType: 'assessment',
+    verificationNote: 'Verified by AI/ML Assessment (Score: 88%) on 20 Aug 2026',
+    recommendation: 'Complete "PyTorch Deep Learning & Tensor Ops" to close remaining 20% gap.'
   },
   {
-    id: 'ml',
-    skill: 'Machine Learning & PyTorch',
-    category: 'AI/ML',
-    yourLevel: 40,
-    industryNeed: 85,
-    gap: 45,
-    status: 'critical',
-    verified: false,
-    recommendation: 'Fix this critical gap to unlock 23 additional AI/Data Science opportunities.'
-  },
-  {
-    id: 'docker',
-    skill: 'Docker & Containerization',
+    id: 'kubernetes',
+    skill: 'Kubernetes Cluster Orchestration',
+    domainId: 'cloud-devops',
     category: 'Cloud & DevOps',
     yourLevel: 50,
     industryNeed: 80,
     gap: 30,
     status: 'high',
     verified: false,
-    recommendation: 'Learn Docker multi-stage builds and Docker Compose pipelines.'
+    recommendation: 'Complete interactive Kubernetes GitOps lab to unlock 18 Cloud Engineer roles.'
   },
   {
-    id: 'system-design',
-    skill: 'System Design & REST APIs',
-    category: 'Architecture',
-    yourLevel: 65,
+    id: 'pentest',
+    skill: 'OWASP Web Application Penetration Testing',
+    domainId: 'cyber-security',
+    category: 'Cyber Security',
+    yourLevel: 45,
     industryNeed: 85,
-    gap: 20,
-    status: 'moderate',
-    verified: true,
-    verificationType: 'certificate',
-    verificationNote: 'Verified by Meta Backend Specialization Certificate',
-    recommendation: 'Focus on distributed caching and horizontal database partitioning.'
+    gap: 40,
+    status: 'critical',
+    verified: false,
+    recommendation: 'Fix this critical gap to qualify for Security Analyst & Ethical Hacker positions.'
+  },
+  {
+    id: 'solidity',
+    skill: 'Solidity Smart Contract Security',
+    domainId: 'blockchain-web3',
+    category: 'Blockchain & Web3',
+    yourLevel: 40,
+    industryNeed: 80,
+    gap: 40,
+    status: 'high',
+    verified: false,
+    recommendation: 'Study Foundry property-based fuzzing to verify decentralized protocols.'
   }
 ];
 
 export const ALL_SKILLS_DIRECTORY = [
-  { id: 'python', name: 'Python', category: 'Programming', level: 'Advanced', score: 90, verified: true, verifiedBy: 'Assessment Verified', demand: 'Very High', icon: 'Code2', jobsCount: 48, internshipsCount: 26 },
-  { id: 'ml', name: 'Machine Learning', category: 'AI/ML', level: 'Beginner', score: 40, verified: false, demand: 'Extremely High', icon: 'BrainCircuit', jobsCount: 38, internshipsCount: 22 },
-  { id: 'sql', name: 'SQL & Database Design', category: 'Database', level: 'Intermediate', score: 70, verified: true, verifiedBy: 'Institution Verified', demand: 'High', icon: 'Database', jobsCount: 42, internshipsCount: 19 },
-  { id: 'react', name: 'React.js & Frontend', category: 'Frontend', level: 'Advanced', score: 88, verified: true, verifiedBy: 'Industry Verified', demand: 'High', icon: 'Layout', jobsCount: 52, internshipsCount: 31 },
-  { id: 'docker', name: 'Docker & Containers', category: 'DevOps', level: 'Intermediate', score: 50, verified: false, demand: 'Very High', icon: 'Box', jobsCount: 35, internshipsCount: 15 },
-  { id: 'algorithms', name: 'Algorithms & DSA', category: 'Core CS', level: 'Advanced', score: 85, verified: true, verifiedBy: 'Assessment Verified', demand: 'Critical', icon: 'Cpu', jobsCount: 60, internshipsCount: 35 },
-  { id: 'cloud-aws', name: 'AWS Cloud Services', category: 'Cloud', level: 'Intermediate', score: 55, verified: false, demand: 'High', icon: 'Cloud', jobsCount: 29, internshipsCount: 12 },
-  { id: 'git', name: 'Git & Version Control', category: 'Dev Tools', level: 'Advanced', score: 92, verified: true, verifiedBy: 'Certificate Verified', demand: 'Standard', icon: 'GitBranch', jobsCount: 70, internshipsCount: 40 },
-  { id: 'communication', name: 'Technical Communication', category: 'Soft Skills', level: 'Advanced', score: 85, verified: true, verifiedBy: 'Institution Verified', demand: 'High', icon: 'MessageSquare', jobsCount: 65, internshipsCount: 38 }
+  // AI & ML
+  { id: 'python', domainId: 'artificial-intelligence', name: 'Python Programming & Internals', category: 'AI & Machine Learning', level: 'Advanced', score: 90, verified: true, verifiedBy: 'Assessment Verified', demand: 'Critical', icon: 'Code2', jobsCount: 58, internshipsCount: 34 },
+  { id: 'ml', domainId: 'artificial-intelligence', name: 'Machine Learning & Scikit-Learn', category: 'AI & Machine Learning', level: 'Advanced', score: 85, verified: true, verifiedBy: 'Assessment Verified', demand: 'Critical', icon: 'BrainCircuit', jobsCount: 46, internshipsCount: 28 },
+  { id: 'pytorch', domainId: 'artificial-intelligence', name: 'PyTorch & Deep Neural Networks', category: 'AI & Machine Learning', level: 'Intermediate', score: 65, verified: true, verifiedBy: 'Assessment Verified', demand: 'Very High', icon: 'BrainCircuit', jobsCount: 42, internshipsCount: 24 },
+  { id: 'mlops', domainId: 'artificial-intelligence', name: 'MLOps & LLM Deployment', category: 'AI & Machine Learning', level: 'Intermediate', score: 60, verified: false, demand: 'High', icon: 'Cpu', jobsCount: 32, internshipsCount: 16 },
+
+  // Cloud & DevOps
+  { id: 'linux', domainId: 'cloud-devops', name: 'Linux System Administration & Shell', category: 'Cloud & DevOps', level: 'Advanced', score: 88, verified: true, verifiedBy: 'Institution Verified', demand: 'Very High', icon: 'Terminal', jobsCount: 65, internshipsCount: 38 },
+  { id: 'docker', domainId: 'cloud-devops', name: 'Docker & Multi-Stage Containers', category: 'Cloud & DevOps', level: 'Advanced', score: 82, verified: true, verifiedBy: 'Assessment Verified', demand: 'Critical', icon: 'Box', jobsCount: 52, internshipsCount: 30 },
+  { id: 'kubernetes', domainId: 'cloud-devops', name: 'Kubernetes Cluster Orchestration', category: 'Cloud & DevOps', level: 'Intermediate', score: 50, verified: false, demand: 'Critical', icon: 'Cloud', jobsCount: 48, internshipsCount: 25 },
+  { id: 'terraform', domainId: 'cloud-devops', name: 'Terraform Infrastructure as Code', category: 'Cloud & DevOps', level: 'Intermediate', score: 55, verified: false, demand: 'High', icon: 'Layers', jobsCount: 36, internshipsCount: 18 },
+
+  // Full-Stack Web
+  { id: 'react', domainId: 'full-stack-web', name: 'React.js, Next.js & TypeScript', category: 'Full-Stack Web', level: 'Advanced', score: 92, verified: true, verifiedBy: 'Assessment Verified', demand: 'Critical', icon: 'Layout', jobsCount: 72, internshipsCount: 45 },
+  { id: 'nodejs', domainId: 'full-stack-web', name: 'Node.js & NestJS Microservices', category: 'Full-Stack Web', level: 'Advanced', score: 86, verified: true, verifiedBy: 'Assessment Verified', demand: 'Very High', icon: 'Server', jobsCount: 60, internshipsCount: 36 },
+  { id: 'sql', domainId: 'full-stack-web', name: 'PostgreSQL, ORMs & Window Queries', category: 'Full-Stack Web', level: 'Advanced', score: 80, verified: true, verifiedBy: 'Assessment Verified', demand: 'Critical', icon: 'Database', jobsCount: 68, internshipsCount: 40 },
+
+  // Cyber Security
+  { id: 'net-sec', domainId: 'cyber-security', name: 'Network Protocols & Firewalls', category: 'Cyber Security', level: 'Intermediate', score: 70, verified: true, verifiedBy: 'Institution Verified', demand: 'High', icon: 'Shield', jobsCount: 38, internshipsCount: 20 },
+  { id: 'pentest', domainId: 'cyber-security', name: 'OWASP Web Penetration Testing', category: 'Cyber Security', level: 'Beginner', score: 45, verified: false, demand: 'Very High', icon: 'ShieldAlert', jobsCount: 34, internshipsCount: 18 },
+  { id: 'crypto', domainId: 'cyber-security', name: 'Applied Cryptography & TLS', category: 'Cyber Security', level: 'Intermediate', score: 62, verified: true, verifiedBy: 'Certificate Verified', demand: 'High', icon: 'Key', jobsCount: 28, internshipsCount: 14 },
+
+  // Data Science
+  { id: 'bi-tools', domainId: 'data-science', name: 'PowerBI, Tableau & Visual Storytelling', category: 'Data Science & Analytics', level: 'Advanced', score: 85, verified: true, verifiedBy: 'Institution Verified', demand: 'High', icon: 'BarChart3', jobsCount: 44, internshipsCount: 26 },
+  { id: 'statistics', domainId: 'data-science', name: 'Statistical Hypothesis & Probability', category: 'Data Science & Analytics', level: 'Intermediate', score: 72, verified: true, verifiedBy: 'Assessment Verified', demand: 'High', icon: 'LineChart', jobsCount: 40, internshipsCount: 22 },
+  { id: 'spark', domainId: 'data-science', name: 'Apache Spark & Distributed ETL', category: 'Data Science & Analytics', level: 'Intermediate', score: 58, verified: false, demand: 'Very High', icon: 'Cpu', jobsCount: 35, internshipsCount: 18 },
+
+  // Mobile Development
+  { id: 'flutter', domainId: 'mobile-dev', name: 'Flutter, Dart & BLoC Architecture', category: 'Mobile Development', level: 'Advanced', score: 86, verified: true, verifiedBy: 'Assessment Verified', demand: 'Very High', icon: 'Smartphone', jobsCount: 40, internshipsCount: 24 },
+  { id: 'react-native', domainId: 'mobile-dev', name: 'React Native, Expo & JSI Modules', category: 'Mobile Development', level: 'Advanced', score: 84, verified: true, verifiedBy: 'Assessment Verified', demand: 'Very High', icon: 'Smartphone', jobsCount: 38, internshipsCount: 22 },
+
+  // Blockchain & Web3
+  { id: 'solidity', domainId: 'blockchain-web3', name: 'Solidity & Smart Contract Auditing', category: 'Blockchain & Web3', level: 'Beginner', score: 40, verified: false, demand: 'High', icon: 'Layers', jobsCount: 24, internshipsCount: 12 },
+  { id: 'web3js', domainId: 'blockchain-web3', name: 'Ethers.js & Web3 Client DApps', category: 'Blockchain & Web3', level: 'Intermediate', score: 60, verified: false, demand: 'High', icon: 'Globe', jobsCount: 22, internshipsCount: 10 },
+
+  // Embedded Systems & IoT
+  { id: 'embedded-c', domainId: 'embedded-iot', name: 'Embedded C / C++ Programming', category: 'Embedded Systems & IoT', level: 'Intermediate', score: 70, verified: true, verifiedBy: 'Institution Verified', demand: 'High', icon: 'Cpu', jobsCount: 30, internshipsCount: 16 },
+  { id: 'freertos', domainId: 'embedded-iot', name: 'FreeRTOS & Kernel Scheduling', category: 'Embedded Systems & IoT', level: 'Intermediate', score: 62, verified: false, demand: 'High', icon: 'Activity', jobsCount: 26, internshipsCount: 14 }
 ];

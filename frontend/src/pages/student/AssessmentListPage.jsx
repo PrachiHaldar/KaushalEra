@@ -12,7 +12,12 @@ import {
   ArrowRight,
   Code2,
   BrainCircuit,
-  Database
+  Database,
+  Cloud,
+  ShieldCheck,
+  Smartphone,
+  Layers,
+  Cpu
 } from 'lucide-react';
 
 export const AssessmentListPage = ({ onNavigate }) => {
@@ -21,7 +26,12 @@ export const AssessmentListPage = ({ onNavigate }) => {
   const iconMap = {
     Code2,
     BrainCircuit,
-    Database
+    Database,
+    Cloud,
+    ShieldCheck,
+    Smartphone,
+    Layers,
+    Cpu
   };
 
   return (
