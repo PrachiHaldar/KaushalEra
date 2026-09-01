@@ -278,7 +278,7 @@ export const HomePage = ({ onNavigate }) => {
             Who Are You in the Ecosystem?
           </h2>
           <p className="text-sm text-secondary max-w-xl mx-auto">
-            Choose your role to explore how KaushalSetu personalizes your experience.
+            Choose your role to explore how KaushalEra personalizes your experience.
           </p>
         </div>
 
@@ -339,7 +339,7 @@ export const HomePage = ({ onNavigate }) => {
 
             <div className="lg:col-span-5 p-6 rounded-2xl bg-slate-950/80 border border-white/10 text-center space-y-4">
               <div className="text-xs uppercase font-bold text-muted">Ready to get started?</div>
-              <div className="text-xl font-bold font-heading text-primary">Join thousands on KaushalSetu</div>
+              <div className="text-xl font-bold font-heading text-primary">Join thousands on KaushalEra</div>
               <Button
                 variant="accent"
                 size="sm"
@@ -358,7 +358,7 @@ export const HomePage = ({ onNavigate }) => {
         <div className="text-center space-y-3 mb-12">
           <span className="text-xs font-bold uppercase tracking-wider text-teal">End-to-End Methodology</span>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-heading text-primary">
-            How KaushalSetu Works
+            How KaushalEra Works
           </h2>
           <p className="text-sm text-secondary max-w-xl mx-auto">
             An 8-stage interactive journey transforming academic learners into industry-ready leaders.
@@ -579,7 +579,7 @@ export const HomePage = ({ onNavigate }) => {
               Ready to Accelerate Your Career or Hire Verified Talent?
             </h2>
             <p className="text-sm text-secondary">
-              Join KaushalSetu today and gain access to standardized assessments, verified digital portfolios, and direct industry placement pipelines.
+              Join KaushalEra today and gain access to standardized assessments, verified digital portfolios, and direct industry placement pipelines.
             </p>
             <div className="pt-3 flex flex-wrap justify-center gap-3">
               <Button

@@ -174,7 +174,7 @@ export const HowItWorksPage = ({ onNavigate }) => {
           <span>Interactive Ecosystem Architecture</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black font-heading text-primary tracking-tight">
-          How KaushalSetu Works
+          How KaushalEra Works
         </h1>
         <p className="text-sm sm:text-base text-secondary leading-relaxed">
           Select an ecosystem stakeholder to discover the step-by-step methodology powering their success.

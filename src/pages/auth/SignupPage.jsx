@@ -63,7 +63,7 @@ export const SignupPage = ({ onNavigate }) => {
               Step {step} of 2
             </span>
             <h2 className="text-xl font-extrabold font-heading text-primary">
-              {step === 1 ? 'Create Your Free Account' : 'Select Your Role Context'}
+              {step === 1 ? 'Join KaushalEra' : 'Select Your Role Context'}
             </h2>
           </div>
           {step === 2 && (
@@ -139,7 +139,7 @@ export const SignupPage = ({ onNavigate }) => {
           /* Step 2: Role Selection (Section 18) */
           <div className="space-y-4">
             <p className="text-xs text-secondary">
-              Select how you will participate in the KaushalSetu national ecosystem:
+              Select how you will participate in the KaushalEra national ecosystem:
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

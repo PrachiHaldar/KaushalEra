@@ -28,7 +28,7 @@ export const AboutPage = ({ onNavigate }) => {
           Bridging the Academia-Industry Divide
         </h1>
         <p className="text-base text-secondary leading-relaxed">
-          KaushalSetu was founded to solve the fundamental disconnect between conventional university curricula and modern software, AI, and engineering industry requirements.
+          KaushalEra was founded to solve the fundamental disconnect between conventional university curricula and modern software, AI, and engineering industry requirements.
         </p>
       </div>
 
@@ -66,7 +66,7 @@ export const AboutPage = ({ onNavigate }) => {
         </div>
       </div>
 
-      {/* 2. Our Solution: The KaushalSetu Continuous Loop (Section 11) */}
+      {/* 2. Our Solution: The KaushalEra Continuous Loop (Section 11) */}
       <div className="card p-8 lg:p-10 bg-slate-900/70 border-white/10 shadow-2xl rounded-3xl space-y-6">
         <div className="max-w-2xl space-y-2">
           <span className="text-xs font-bold uppercase tracking-wider text-teal">Our Solution</span>

@@ -75,10 +75,10 @@ export const PublicNavbar = ({ currentPath, onNavigate, onOpenSearch }) => {
           </div>
           <div>
             <div className="font-heading font-extrabold text-lg text-primary tracking-tight leading-none flex items-center gap-1.5">
-              <span>Kaushal<span className="text-brand">Setu</span></span>
+              <span>✦ Kaushal<span className="text-brand">Era</span></span>
             </div>
             <div className="text-[10px] text-muted tracking-wider uppercase font-semibold">
-              Academia-Industry Bridge
+              Academia–Industry Ecosystem
             </div>
           </div>
         </div>

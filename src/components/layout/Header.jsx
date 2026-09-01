@@ -75,7 +75,7 @@ export const Header = ({ onOpenSearch, onToggleMobileSidebar, onNavigate }) => {
             </div>
             <div className="hidden sm:block">
               <div className="font-heading font-extrabold text-base text-primary tracking-tight leading-none flex items-center gap-1.5">
-                <span>Kaushal<span className="text-brand">Setu</span></span>
+                <span>✦ Kaushal<span className="text-brand">Era</span></span>
               </div>
               <div className="text-[9px] text-muted tracking-wider uppercase font-semibold">
                 Portal Workspace

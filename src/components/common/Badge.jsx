@@ -39,7 +39,7 @@ export const VerificationBadge = ({
     },
     assessment: {
       defaultText: '✓ Assessment Verified',
-      defaultTooltip: 'Score > 80% achieved in KaushalSetu Proctored Coding Assessment on 14 Aug 2026',
+      defaultTooltip: 'Score > 80% achieved in KaushalEra Proctored Coding Assessment on 14 Aug 2026',
       icon: CheckCircle2,
       styleClass: 'assessment'
     },

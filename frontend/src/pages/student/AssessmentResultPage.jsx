@@ -76,7 +76,7 @@ export const AssessmentResultPage = ({ assessmentId = 'python-advanced', score =
           <VerificationBadge
             type="assessment"
             text="✓ Assessment Verified"
-            tooltip={`Verified by KaushalSetu on ${assessment.title}`}
+            tooltip={`Verified by KaushalEra on ${assessment.title}`}
           />
           <Badge variant="teal">Advanced Level</Badge>
         </div>

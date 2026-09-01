@@ -128,7 +128,7 @@ export const DemoPage = ({ onNavigate }) => {
           1-Click Role Exploration Sandbox
         </h1>
         <p className="text-sm sm:text-base text-secondary leading-relaxed">
-          Select any role below to immediately experience KaushalSetu with pre-seeded data, active assessment scorecards, and live dashboards.
+          Select any role below to immediately experience KaushalEra with pre-seeded data, active assessment scorecards, and live dashboards.
         </p>
       </div>
 

@@ -11,7 +11,7 @@ export const PublicFooter = ({ onNavigate }) => {
     if (!newsletterEmail) return;
     addToast({
       title: '📬 Subscribed!',
-      message: 'You have been enrolled in KaushalSetu industry insights.',
+      message: 'You have been enrolled in KaushalEra industry insights.',
       type: 'success',
       duration: 3500
     });
@@ -33,12 +33,12 @@ export const PublicFooter = ({ onNavigate }) => {
                 <Sparkles size={16} />
               </div>
               <div className="font-heading font-extrabold text-lg text-primary tracking-tight">
-                Kaushal<span className="text-brand">Setu</span>
+                ✦ Kaushal<span className="text-brand">Era</span>
               </div>
             </div>
 
             <p className="text-xs text-secondary leading-relaxed max-w-sm">
-              The national academia-industry collaboration and skill intelligence platform. Connecting students, faculty, institutions, and recruiters in one unified loop.
+              KaushalEra — Academia × Industry × Talent. Connecting students, faculty, institutions, and recruiters in one unified ecosystem.
             </p>
 
             {/* Newsletter */}
@@ -115,7 +115,7 @@ export const PublicFooter = ({ onNavigate }) => {
         {/* Bottom Bar: Copyright & Demo link */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-muted">
           <div className="flex items-center gap-1">
-            <span>© {new Date().getFullYear()} KaushalSetu Platform. Built with high precision.</span>
+            <span>© {new Date().getFullYear()} KaushalEra Platform. Built with high precision.</span>
           </div>
 
           <div className="flex items-center gap-4">

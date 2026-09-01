@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuthRole, USER_ROLES } from './context/AuthRoleContext';
 
 // Layouts
@@ -50,6 +50,32 @@ export function App() {
   const { isAuthenticated, currentRole } = useAuthRole();
   const [currentPath, setCurrentPath] = useState('/');
   const [routeState, setRouteState] = useState(null);
+
+  // Dynamic Browser Document Title
+  useEffect(() => {
+    if (!isAuthenticated) {
+      document.title = 'KaushalEra — Academia–Industry Collaboration Platform';
+    } else {
+      switch (currentRole) {
+        case USER_ROLES.FACULTY:
+          document.title = 'KaushalEra — Faculty';
+          break;
+        case USER_ROLES.RECRUITER:
+          document.title = 'KaushalEra — Industry';
+          break;
+        case USER_ROLES.INSTITUTION_ADMIN:
+          document.title = 'KaushalEra — Institution';
+          break;
+        case USER_ROLES.ADMIN:
+          document.title = 'KaushalEra — Admin';
+          break;
+        case USER_ROLES.STUDENT:
+        default:
+          document.title = 'KaushalEra — Student';
+          break;
+      }
+    }
+  }, [isAuthenticated, currentRole, currentPath]);
 
   const handleNavigate = (path, state = null) => {
     setCurrentPath(path);

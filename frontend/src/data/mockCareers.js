@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU CAREER EXPLORER & COMPARISON DATA STORE
+// KAUSHALERA CAREER EXPLORER & COMPARISON DATA STORE
 // ==========================================================================
 
 export const MOCK_CAREERS = [

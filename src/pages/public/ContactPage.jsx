@@ -19,7 +19,7 @@ export const ContactPage = ({ onNavigate }) => {
 
     addToast({
       title: '📨 Message Sent Successfully!',
-      message: 'Thank you! A KaushalSetu ecosystem advisor will reach out within 24 business hours.',
+      message: 'Thank you! A KaushalEra ecosystem advisor will reach out within 24 business hours.',
       type: 'success',
       duration: 4000
     });
@@ -35,7 +35,7 @@ export const ContactPage = ({ onNavigate }) => {
 
   const faqs = [
     {
-      q: 'How does KaushalSetu calculate the AI skill match score?',
+      q: 'How does KaushalEra calculate the AI skill match score?',
       a: 'We evaluate multi-factor parameters including standardized proctored coding assessments, GitHub capstone code quality, verified academic GPA, and explicit technology keywords.'
     },
     {
@@ -53,7 +53,7 @@ export const ContactPage = ({ onNavigate }) => {
       {/* Header */}
       <div className="text-center space-y-3 max-w-2xl mx-auto">
         <h1 className="text-4xl font-extrabold font-heading text-primary">
-          Get in Touch with KaushalSetu
+          Get in Touch with KaushalEra
         </h1>
         <p className="text-sm text-secondary">
           Connect with our academic partnership advisors, request an enterprise recruiter demo, or submit student feedback.
@@ -69,11 +69,11 @@ export const ContactPage = ({ onNavigate }) => {
             <div className="space-y-3 text-xs text-secondary">
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-brand shrink-0 mt-0.5" />
-                <span>KaushalSetu National Innovation Center, Tech Corridor, Bengaluru, Karnataka, India</span>
+                <span>KaushalEra National Innovation Center, Tech Corridor, Bengaluru, Karnataka, India</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-teal shrink-0" />
-                <span>partnerships@kaushalsetu.gov.in</span>
+                <span>partnerships@kaushalera.gov.in</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-emerald shrink-0" />

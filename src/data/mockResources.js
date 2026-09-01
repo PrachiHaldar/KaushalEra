@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU DIGITAL RESOURCE LIBRARY DATA STORE
+// KAUSHALERA DIGITAL RESOURCE LIBRARY DATA STORE
 // ==========================================================================
 
 export const MOCK_RESOURCES = [
@@ -13,7 +13,7 @@ export const MOCK_RESOURCES = [
     duration: '45 min',
     rating: 4.8,
     reviewsCount: 1420,
-    author: 'KaushalSetu Editorial & FAANG Engineers',
+    author: 'KaushalEra Editorial & FAANG Engineers',
     bookmarked: true,
     completed: false,
     url: '#',

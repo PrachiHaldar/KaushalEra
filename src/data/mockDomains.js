@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU DOMAIN DISCOVERY DATA STORE
+// KAUSHALERA DOMAIN DISCOVERY DATA STORE
 // ==========================================================================
 
 export const MOCK_DOMAINS = [
@@ -32,7 +32,7 @@ export const MOCK_DOMAINS = [
     courses: [
       { title: 'Machine Learning Specialization', provider: 'DeepLearning.AI / Stanford', rating: 4.9, students: '420k', duration: '3 months' },
       { title: 'Deep Learning with PyTorch', provider: 'Meta AI Academy', rating: 4.8, students: '180k', duration: '6 weeks' },
-      { title: 'Applied Generative AI & LLMs', provider: 'KaushalSetu Masterclass', rating: 4.9, students: '45k', duration: '4 weeks' }
+      { title: 'Applied Generative AI & LLMs', provider: 'KaushalEra Masterclass', rating: 4.9, students: '45k', duration: '4 weeks' }
     ],
     projects: [
       { title: 'End-to-End LLM RAG Pipeline with Vector DB', difficulty: 'Advanced', duration: '3 weeks', tags: ['Python', 'LangChain', 'ChromaDB'] },
@@ -96,7 +96,7 @@ export const MOCK_DOMAINS = [
       { role: 'Backend API Developer', match: 85, demand: 'High', avgSalary: '₹14 LPA' }
     ],
     courses: [
-      { title: 'Full Stack React & Node Masterclass', provider: 'KaushalSetu Pro', rating: 4.9, students: '320k', duration: '10 weeks' }
+      { title: 'Full Stack React & Node Masterclass', provider: 'KaushalEra Pro', rating: 4.9, students: '320k', duration: '10 weeks' }
     ],
     projects: [
       { title: 'Real-Time Collaboration Workspace with WebSockets', difficulty: 'Intermediate', duration: '3 weeks', tags: ['React', 'Node.js', 'Socket.io', 'Redis'] }

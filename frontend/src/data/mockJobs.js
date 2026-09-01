@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU JOBS & INTERNSHIPS DATA STORE
+// KAUSHALERA JOBS & INTERNSHIPS DATA STORE
 // ==========================================================================
 
 export const MOCK_INTERNSHIPS = [

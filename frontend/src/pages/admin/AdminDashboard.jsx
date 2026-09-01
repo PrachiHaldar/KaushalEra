@@ -54,7 +54,7 @@ export const AdminDashboard = ({ onNavigate }) => {
             <span>Root Governance & Ecosystem Administration</span>
           </div>
           <h1 className="text-3xl font-extrabold font-heading text-primary">
-            KaushalSetu Master Control Center
+            KaushalEra Master Control Center
           </h1>
           <p className="text-sm text-secondary">
             User identity management, accreditation audit trails, and multi-tenant domain administration.

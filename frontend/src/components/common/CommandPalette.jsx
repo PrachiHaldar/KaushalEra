@@ -231,7 +231,7 @@ export const CommandPalette = ({ isOpen, onClose, onNavigate }) => {
             <span>Select <kbd className="px-1.5 py-0.5 bg-slate-800 rounded text-[10px]">↵</kbd></span>
           </div>
           <div className="flex items-center gap-1 text-brand">
-            <Sparkles size={11} /> KaushalSetu Instant Intelligence
+            <Sparkles size={11} /> KaushalEra Instant Intelligence
           </div>
         </div>
       </div>

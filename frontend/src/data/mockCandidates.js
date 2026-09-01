@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU INDUSTRY RECRUITER & CANDIDATE MATCHING DATA STORE
+// KAUSHALERA INDUSTRY RECRUITER & CANDIDATE MATCHING DATA STORE
 // ==========================================================================
 
 export const MOCK_CANDIDATES = [

@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU INTERACTIVE ROADMAP & SKILL TREE DATA
+// KAUSHALERA INTERACTIVE ROADMAP & SKILL TREE DATA
 // ==========================================================================
 
 export const MOCK_SKILL_TREE = {

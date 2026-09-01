@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU SKILLS DATA STORE
+// KAUSHALERA SKILLS DATA STORE
 // ==========================================================================
 
 export const SKILL_CATEGORIES = {

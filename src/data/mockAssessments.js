@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU ASSESSMENT ENGINE DATA STORE
+// KAUSHALERA ASSESSMENT ENGINE DATA STORE
 // ==========================================================================
 
 export const MOCK_ASSESSMENTS = [

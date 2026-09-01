@@ -18,11 +18,11 @@ export const createApplication = (req, res) => {
     role: opportunity.title,
     stage: 'APPLIED',
     appliedDate: 'Today',
-    statusNote: 'Application submitted successfully via KaushalSetu',
+    statusNote: 'Application submitted successfully via KaushalEra',
     badgeColor: 'badge-primary',
     salaryOrStipend: opportunity.salary || opportunity.stipend || 'Competitive',
     timeline: [
-      { date: 'Today', event: 'Application Submitted via KaushalSetu' }
+      { date: 'Today', event: 'Application Submitted via KaushalEra' }
     ]
   };
 

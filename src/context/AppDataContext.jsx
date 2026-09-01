@@ -128,11 +128,11 @@ export const AppDataProvider = ({ children }) => {
       role: opportunity.title,
       stage: 'APPLIED',
       appliedDate: 'Today',
-      statusNote: 'Application submitted successfully via KaushalSetu',
+      statusNote: 'Application submitted successfully via KaushalEra',
       badgeColor: 'badge-primary',
       salaryOrStipend: opportunity.salary || opportunity.stipend || 'Competitive',
       timeline: [
-        { date: 'Today', event: 'Application Submitted via KaushalSetu' }
+        { date: 'Today', event: 'Application Submitted via KaushalEra' }
       ]
     };
     setApplications(prev => [newApp, ...prev]);
@@ -272,7 +272,7 @@ export const AppDataProvider = ({ children }) => {
       duration: resourceData.duration || '30 min',
       rating: 4.9,
       reviewsCount: 1,
-      author: resourceData.author || 'KaushalSetu Faculty',
+      author: resourceData.author || 'KaushalEra Faculty',
       bookmarked: false,
       completed: false,
       summary: resourceData.summary || 'Educational reference guide.',

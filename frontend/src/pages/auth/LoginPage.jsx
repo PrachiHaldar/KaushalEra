@@ -77,7 +77,7 @@ export const LoginPage = ({ onNavigate }) => {
                 <Sparkles size={18} />
               </div>
               <div className="font-heading font-extrabold text-xl text-primary tracking-tight">
-                Kaushal<span className="text-brand">Setu</span>
+                ✦ Kaushal<span className="text-brand">Era</span>
               </div>
             </div>
 
@@ -85,7 +85,7 @@ export const LoginPage = ({ onNavigate }) => {
               Connect Academia with Industry.
             </h2>
             <p className="text-xs sm:text-sm text-secondary leading-relaxed">
-              Standardized skill assessments, AI career readiness scoring, and direct verified placements for students, educators, and enterprise recruiters.
+              Assess Skills. Learn. Build. Intern. Collaborate. Get Hired. Standardized skill assessments, AI career readiness scoring, and direct verified placements.
             </p>
           </div>
 
@@ -131,10 +131,10 @@ export const LoginPage = ({ onNavigate }) => {
         <div className="lg:col-span-7 p-8 lg:p-12 space-y-6 flex flex-col justify-center">
           <div className="space-y-1">
             <h3 className="text-2xl font-extrabold font-heading text-primary">
-              Welcome Back
+              Welcome to KaushalEra
             </h3>
             <p className="text-xs text-muted">
-              Enter your credentials to access your personalized portal.
+              Your gateway to skills, learning, internships and careers.
             </p>
           </div>
 

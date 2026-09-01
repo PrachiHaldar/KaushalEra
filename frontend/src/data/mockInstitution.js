@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU INSTITUTION & FACULTY ANALYTICS DATA STORE
+// KAUSHALERA INSTITUTION & FACULTY ANALYTICS DATA STORE
 // ==========================================================================
 
 export const MOCK_INSTITUTION_METRICS = {

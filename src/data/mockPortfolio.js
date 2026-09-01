@@ -1,5 +1,5 @@
 // ==========================================================================
-// KAUSHALSETU DIGITAL PORTFOLIO & INTERNSHIP WORKSPACE DATA
+// KAUSHALERA DIGITAL PORTFOLIO & INTERNSHIP WORKSPACE DATA
 // ==========================================================================
 
 export const MOCK_STUDENT_PORTFOLIO = {
